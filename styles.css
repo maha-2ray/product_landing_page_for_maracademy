@@ -262,3 +262,69 @@ body{
     text-align: center;
     color: #003049;
 }
+ .marquee{
+    display: flex;
+    /* white-space: nowrap; */
+    will-change: transform;
+    animation: marquee 60s linear infinite;
+}
+.testimony{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #003049;
+    width: 20vw;
+    height: 30vh;
+  
+}
+/*
+.marquee span{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 60s linear infinite;
+} */
+ .client_profile{
+    border: 1px solid #003049;
+    width: 3.5vw;
+    height: 6vh;
+    border-radius: 50%;
+ }
+ .message_section{
+    width: 100%;
+ }
+ .message{
+    display: flex;
+    flex-wrap: wrap;
+    color: #003049;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .7em;
+ }
+ .qoute{
+    display: inline;
+    color: #003049;
+    font-size: 20px;
+
+ }
+ .news_div{
+    padding-top: 5em;
+ }
+ .news_section{
+    display: flex;
+    flex-direction: row;
+ }
+ .video{
+    width: 40%;
+    height: 75vh;
+    border-radius: 10px;
+ }
+ iframe{
+    border-radius: 10px;
+ }
