@@ -522,4 +522,9 @@ body{
     .title{
         font-size: 1.5em;
     }
+    @media (orientation: Landscape){
+        /* .navbar{
+            display: none;
+        } */
+    }
 }
