@@ -486,7 +486,7 @@ body{
         width: 20vw;
     }
     .register_btn, .preview_btn{
-        margin-top: 5em;
+        margin-top: 3em;
     }
     .testimonial_section{
         padding-top: 2em;
@@ -499,7 +499,7 @@ body{
         display: block;
         width: 47%;
         align-items: center;
-        height: 32vh;
+        height: 38vh;
     }
     .client_profile{
         width: 9vw;
