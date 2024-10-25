@@ -12,11 +12,15 @@
         <header class="header">
             <h1 class="logo"><span class="logo_span1">Mar</span><span class="logo_span2">Academy</span></h1>
             <nav class="nav">
-                <a href="" class="nav_link">Courses</a>
-                <a href="" class="nav_link">Scholarships</a>
-                <a href="" class="nav_link">Pricing</a>
-                <a href="" class="nav_link">About Us</a>
-                <a href="" class="nav_link">Contacts</a>
+                <input type="checkbox" id="toggle-menu" class="toggle-menu">
+                <label for="toggle-menu" class="hamburger">&#9776;</label>
+                <ul class="navbar">
+                    <li class="nav"><a href="" class="nav_link">Courses</a></li>
+                    <li class="nav"><a href="" class="nav_link">Scholarships</a></li>
+                    <li class="nav"><a href="" class="nav_link">Pricing</a></li>
+                    <li class="nav"><a href="" class="nav_link">About Us</a></li>
+                    <li class="nav"><a href="" class="nav_link">Contacts</a></li>
+                </ul>
             </nav>
             <div>
                 <button class="sign_up_btn">Get Started</button>
@@ -68,6 +72,7 @@
         <div class="courses">
             <h2 class="find_courses">Search Among Some Courses and Find Your Favorite course.</h2>
             <input type="search" placeholder="search your course..." class="input_search">
+            <input type="button" value="Search" class="search">
             <div class="course_field">
                 <div class="course"><img src="python.png" alt="" class="course_icon">
                 <p class="course_title">Introduction to Python</p>
@@ -110,9 +115,9 @@
             </div>
             
         </div>
-        <div id="testimonial_section">
+        <div id="testimonial_section" class="testimonial_section">
             <h2 class="title">Testimonies from our Students</h2>
-            <div class="marquee">
+            <div class="testimonial">
                 <div class="testimony"><img src="ousman.png" alt="" class="client_profile">
                     <span class="span">Ousman Jallow</span>
                     <div class="message_section"><p class="message">"
