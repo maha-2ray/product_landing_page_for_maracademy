@@ -443,6 +443,9 @@
   .testimonial {
     grid-template-columns: repeat(1, 1fr);
   }
+  .client_profile{
+    width: 10vw;
+  }
 }
 
 .news_div {
@@ -561,9 +564,7 @@ iframe {
   .member_pic {
     max-width: 150px;
   }
-  .client_profile{
-    height: 10vh;
-  }
+  
 }
 
 @media (max-width: 768px) {
